@@ -24,13 +24,10 @@ max-width: 130px !important;
  margin-bottom:-1px !important;
  }
 
-
-
 #TabsToolbar {
     background: #0d151d !important;
     margin-bottom: -10 !important;
 }
-
 
 #TabsToolbar .tabbrowser-tabs {
     min-height: 20px !important;
@@ -49,21 +46,20 @@ max-width: 130px !important;
     display: none !important;
 }
 
-
 #TabsToolbar .tabbrowser-tab {
     -moz-border-top-colors: none !important;
     -moz-border-left-colors: none !important;
     -moz-border-right-colors: none !important;
     -moz-border-bottom-colors: none !important;
     padding: 0px 0px !important;
-    border-radius: 4px 4px 0px 0px !important;
+    border-radius: 3px 3px 0px 0px !important;
     background: #101a23 !important;
     transition: all .1s !important;
     margin-left: 0px !important;
     color: #868a8e !important;
-    font-family: cure, "kroeger 05_55 caps", 'montecarlo' !important;
+    font-family: cure, "kroeger 05_55 caps", '"sans serif"' !important;
     font-size: 8px !important;
-    min-height: 14px !important;
+    min-height: 13px !important;
 }
 
 #TabsToolbar .tabs-newtab-button {
@@ -74,7 +70,7 @@ max-width: 130px !important;
     border-style: solid !important;
     border-color: transparent !important;
     border-width: 1px 1px 0 1px !important;
-    text-shadow: 0 0 4px #c2c5c7 !important;
+    text-shadow: 0 0 3px #c2c5c7 !important;
     background: transparent !important;
     transition: all .1s !important;
 }
@@ -82,14 +78,14 @@ max-width: 130px !important;
 #TabsToolbar .tabbrowser-tab[selected] {
     color: #c2c5c7 !important;
     background: #9f440d !important;
-    border-radius: 4px 4px 0px 0px !important;
+    border-radius: 3px 3px 0px 0px !important;
     
 }
 
 #TabsToolbar .tabbrowser-tab:hover[selected] {
     color: #c2c5c7 !important;
     background: #9f440d !important;
-    border-radius: 4px 4px 0px 0px !important;
+    border-radius: 3px 3px 0px 0px !important;
     
 }
 
@@ -97,7 +93,7 @@ max-width: 130px !important;
 #TabsToolbar .tabbrowser-tab:hover:not([selected]) {
     color: #c2c5c7 !important;
     background-color: #9f440d !important;
-    border-radius: 4px 4px 0px 0px !important;
+    border-radius: 3px 3px 0px 0px !important;
 }
 
 #TabsToolbar .tab-background {
@@ -111,7 +107,7 @@ max-width: 130px !important;
 }
 
 #TabsToolbar .tab-background-middle {
-    margin: -4px -2px !important;
+    margin: -3px -2px !important;
     background: transparent !important;
 }
 
@@ -133,9 +129,10 @@ max-width: 130px !important;
     background: #c2c5c7 !important;
     box-shadow: none !important;
     background-clip: padding-box !important;
-    border-color: rgba(0,0,0,.25) !important;
+    border-color: transparent !important;
     border-radius: 0 !important;
     margin-bottom: 0px !important;
+    border-width: 0 !important;
 }
 
 .subviewbutton.panel-subview-footer {
@@ -149,10 +146,10 @@ max-width: 130px !important;
 /* remove back/fwd */
 
 #nav-bar  #back-button > .toolbarbutton-icon {
-    display: none !important;
+    /*display: none !important;*/
 }
  #forward-button {
-     display: none !important;
+     /*display: none !important;*/
 }
 
 /*styling*/
@@ -162,14 +159,14 @@ max-width: 130px !important;
     text-align: left;
     background: #0c1218 !important;
     margin-top: 0px !important;
-    margin-left: 4px !important;
+    margin-left: 24px !important;
     border-radius: 3px;
     border: 1px solid #111d26 !important;
     margin-bottom: 0px !important;
     padding: 2px !important;
     /*color: #868a8e !important; */    
     color: #7B8894 !important;
-    font-family: cure, "kroeger 05_55 caps", montecarlo !important;
+    font-family: cure, "kroeger 05_55 caps", "sans serif" !important;
     height: 21px !important;
     font-size: 8px !important;
 }
@@ -185,16 +182,15 @@ max-width: 130px !important;
 
 /* HIDES BACKGROUND EFFECT ON HOVER AND ACTIVE MENU BUTTON */
 .toolbarbutton-icon, .toolbarbutton-text, .toolbarbutton-badge-container {
-	background: none !important;
-	border: none !important;
-	box-shadow: none !important;
-  /*border: none !important;*/
-  font-family: cure, "kroeger 05_55 caps", montecarlo !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-family: cure, "kroeger 05_55 caps", "sans serif" !important;
   font-size: 8px !important;
   border-bottom: 0px !important;
   padding-bottom: 0px !important;
   padding: 0px !important;
-    margin: 0px !important;
+  margin: 0px !important;
 }
   
 .toolbarbutton-icon:hover, .toolbarbutton-text:hover, .toolbarbutton-badge-container:hover {
@@ -257,7 +253,7 @@ max-width: 130px !important;
     margin-right: 0px !important;
     margin-bottom: 0px !important;
     box-shadow: none !important;
-    width: 10px !important;
+    width: 15px !important;
 }
 
 #toolbarbutton-icon .Downloads,
